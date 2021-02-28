@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="img/logo-60-.png" alt="logo" srcset="" />
+ 
+      <div style="margin-top: 30px;">
+        <button id="d00" class="button">วิดีโอแนะนำโรงเรียน</button>
+        <button id="d01" class="button">เว็บไซต์โรงเรีย</button>
+        <button id="d02" class="button">ภาพกิจกรรม</button>
+        <button id="d03" class="button">ประกาศรับสมัคร</button>
+      </div>
+
+      <p>© sayamphoo</p>
+    </div>
+
+    <script>
+      document.getElementById("d00").addEventListener("click", () => {
+        window.open("https://www.youtube.com/watch?v=Mjrkl2Wl-do&feature=youtu.be");
+      });
+      document.getElementById("d01").addEventListener("click", () => {
+        window.open("http://www.hoksib.ac.th/");
+      });
+
+      document.getElementById("d02").addEventListener("click", () => {
+        window.open("https://drive.google.com/drive/folders/1-FAB1D4kQPsmT2_MHieg7vVv2Gwbdni-");
+      });
+
+      document.getElementById("d03").addEventListener("click", () => {
+        window.open("https://drive.google.com/file/d/1X33p9tBu5NKaKChn2bOL5hTnsPQ5iw-E/view?usp=sharing");
+      });
+    </script>
+  </body>
+</html>
